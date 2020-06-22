@@ -8,7 +8,7 @@ try {
     $sql = "select * from user";
     $result = $dbh->query($sql);
 } catch (PDOException $e) {
-    echo "setudokusippai: " . $e->getMessage() . "\n";
+    echo "接続失敗: " . $e->getMessage() . "\n";
     exit();
 }
 ?>
