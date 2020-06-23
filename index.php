@@ -74,8 +74,27 @@ try {
                 </tbody>
             </table>
             <div id="tab2" class="tab-pane">sample2</div>
-            <div id="tab3" class="tab-pane">sample3</div>
-            <div id="tab4" class="tab-pane">sample4</div>
+                    <from action="mt-S" action="./insert.php" method="POST">
+                        <div class="form-group" row>
+                            <label class="col-sm-2 col-form-label" for="id" >ID</label>
+                            <input class="form-control" type="text" name="id" id="id">
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input class="form-control" type="text" name="name" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="age">Age</label>
+                            <input class="form-control" type="text" name="age" id="age">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Insert
+                    </form>
+            <div id="tab3" class="tab-pane">
+                <h1>sample3</h1>
+            </div>
+            <div id="tab4" class="tab-pane">
+                <h1>sample4</h1>
+            </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
