@@ -87,7 +87,22 @@ try {
                             <label for="age">Age</label>
                             <input class="form-control" type="text" name="age" id="age">
                         </div>
-                        <button type="submit" class="btn btn-primary">Insert
+                        <button type="submit" class="btn btn-primary">Insert</button>
+                    </form>
+                    <from action="mt-S" action="./insert.php" method="POST">
+                        <div class="form-group" row>
+                            <label class="col-sm-2 col-form-label" for="id" >ID</label>
+                            <input class="form-control" type="text" name="id" id="id">
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input class="form-control" type="text" name="name" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="age">Age</label>
+                            <input class="form-control" type="text" name="age" id="age">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Insert</button>
                     </form>
             <div id="tab3" class="tab-pane">
                 <h1>sample3</h1>
