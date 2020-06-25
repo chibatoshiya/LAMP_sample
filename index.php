@@ -104,12 +104,6 @@ try {
                         </div>
                         <button type="submit" class="btn btn-primary">Insert</button>
                     </form>
-            <div id="tab3" class="tab-pane">
-                <h1>sample3</h1>
-            </div>
-            <div id="tab4" class="tab-pane">
-                <h1>sample4</h1>
-            </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
